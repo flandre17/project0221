@@ -1,0 +1,19 @@
+@font-face {
+  font-family: serif;
+  src: url("../csII/AftaSerifThin.otf") format("opentype")
+  
+   
+   
+   
+  }
+@font-face {
+  font-family: "Your italic typeface";
+  src: url("type/filename-ital.eot");
+  src: local("☺"),
+  
+    url("../csII/AftaSerifThin-Italic.otf") format("opentype"),
+    url("type/filename-ital.svg#filename-ital") format("svg");
+  }
+h2 { font-family: "Your typeface", Georgia, serif; }
+p { font-family: "Your italic typeface", Georgia, serif; }
+em { font-style: italic; }
